@@ -1,0 +1,21 @@
+# the-operator repo: whitelist gitignore.
+# Ignore everything in the workspace by default, then re-include only what ships.
+# Workspace scratch stays local-only: test-run copies, specs/plans, answer keys, tmp,
+# PDFs, screenshots, governance, MCP artifacts.
+
+/*
+
+# Re-include only the shipped pieces
+!/.gitignore
+!/README.md
+!/builtbybas-intake-operator/
+!/showcase/
+
+# Inside the operator: the blind evaluation suite is local-only.
+# samples/ ships (the three "Try it" demos); test-inputs/ (the held eval prompts) does not.
+/builtbybas-intake-operator/test-inputs/
+
+# Safety: never track OS/editor cruft if it appears inside the included folders
+**/.DS_Store
+**/Thumbs.db
+**/.playwright-mcp/

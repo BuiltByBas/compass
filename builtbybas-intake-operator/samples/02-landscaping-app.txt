@@ -1,0 +1,4 @@
+I run a landscaping company with 4 crews. Right now scheduling jobs and tracking crew hours is
+all text messages and a whiteboard in my office. Stuff gets missed and I rebuild everyone's
+timesheets by hand every week. I want an app the crews can use from their phones to see their
+jobs and clock in. Can you build that?
