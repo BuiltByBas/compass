@@ -26,6 +26,7 @@ does. Pull the entry, use it, move on.
 | decision-rubric.md | complexity, fit, risk, and confidence scoring | every inquiry (score) |
 | industry-profiles.md | per-vertical business, data, compliance, reframe tells, and fit | when an industry is named or implied (load the one) |
 | regulations.md | each regulation: what it is, who it hits, what to flag | when a specific regulation is triggered |
+| index.html | the self-contained visual showcase of the operator (not loaded for triage; a human-facing demo) | never during triage; open in a browser to view |
 
 ## Growing the library
 
