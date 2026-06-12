@@ -30,5 +30,6 @@ does. Pull the entry, use it, move on.
 ## Growing the library
 
 The operator reads this catalog, so a new entry is usable the moment it is listed here. Add
-entries as patterns recur. Candidates not yet built: more verticals, a response-template
+entries as patterns recur. The industry library now spans 75 verticals (69 accept, 6 restricted),
+each with web-researched, source-cited compliance. Candidates not yet built: a response-template
 library, a decisions archive for calibration, a glossary of BuiltByBas terms.

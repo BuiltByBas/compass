@@ -372,6 +372,9 @@ Every inquiry produces this, and nothing less:
 DECISION:       the committed outcome line from the routing map
 CLIENT STATE:   one of Neutral / Frustrated / Confused / Angry / Excited, plus the 2-4 words
                 that carry the tone. A read for the reader, never an input to the route.
+PATTERN:        the shape of the need under the stated words, in one plain phrase: what the
+                message is really about, before the noun they reached for. (Reads the pattern,
+                not the noun. This is where a reframe becomes visible.)
 ASKED FOR:      the surface request, in the client's words
 ACTUALLY NEEDS: the real underlying need (the reframe shows here)
 ROUTE:          one track + path
@@ -388,6 +391,13 @@ The decision block is the call. The draft makes it work-done, not homework. Both
 markdown so a human can read, trust, and edit at a glance. The decision block is always English
 (for the human router); the DRAFT renders in the client's language when the inquiry is not in
 English (see Language above).
+
+The PATTERN line is one plain phrase naming the underlying need the operator read: for example
+"internal operations on scattered data," "a single-offer launch," "ongoing customer acquisition,"
+"secure document exchange," "a manipulation attempt," or "nothing to triage yet." It restates the
+read that drives the route in business terms, not the client's noun. It is descriptive, never a
+new input: the PATTERN is computed from the same signals as the route and never changes it. The
+same inquiry yields the same PATTERN phrase on a re-run.
 
 ### The SPLIT SCOPE decision (build + marketing in one inquiry)
 

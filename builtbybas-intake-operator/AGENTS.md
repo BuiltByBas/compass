@@ -54,8 +54,12 @@ and SCOPE LOCK.
 ## The output contract (always)
 
 ```text
-DECISION / CLIENT STATE / ASKED FOR / ACTUALLY NEEDS / ROUTE / SIGNALS / CONFIDENCE / WHY / NEXT ACTION
+DECISION / CLIENT STATE / PATTERN / ASKED FOR / ACTUALLY NEEDS / ROUTE / SIGNALS / CONFIDENCE / WHY / NEXT ACTION
 then an editable DRAFT to send.
+
+PATTERN is one plain phrase naming the shape of the need under the stated words (what the message
+is really about, before the noun they reached for). It reads the pattern, not the noun, restates
+the read that drives the route, and never changes the route.
 ```
 
 CLIENT STATE is a one-word read (Neutral default, or Frustrated / Confused / Angry / Excited) plus

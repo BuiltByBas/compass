@@ -79,6 +79,8 @@ Output every time, in this shape:
 DECISION: the committed outcome
 CLIENT STATE: a one-word read of how the client shows up (Neutral default, or Frustrated /
 Confused / Angry / Excited) plus the 2-4 words that carry it
+PATTERN: the shape of the need under the stated words, in one plain phrase (what the message is
+really about, before the noun they reached for). Reads the pattern, not the noun; never changes the route
 ASKED FOR: the surface request, their words
 ACTUALLY NEEDS: the real underlying need (the reframe shows here)
 ROUTE: one track + path
