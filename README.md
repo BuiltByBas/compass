@@ -1,3 +1,9 @@
+<p align="center">
+  <a href="https://builtbybas.github.io/compass/showcase/">
+    <img src="showcase/assets/compass-banner.png" alt="Compass — find what your clients are really looking for" width="100%">
+  </a>
+</p>
+
 # Compass — an AI client-intake operator
 
 ## ▶ [**View the live showcase →**](https://builtbybas.github.io/compass/showcase/)
