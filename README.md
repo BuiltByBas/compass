@@ -6,10 +6,11 @@
 
 # Compass: an AI client-intake operator
 
-## ▶ [**View the live showcase →**](https://builtbybas.github.io/compass/showcase/)
+## ▶ [**View the live showcase →**](https://builtbybas.github.io/compass/showcase/) &nbsp;·&nbsp; [**Quick start (set it up) →**](builtbybas-intake-operator/README.md#quick-start)
 
-An animated walkthrough of how Compass reads an inquiry and commits to a bearing. (Or open
-[`showcase/index.html`](showcase/index.html) locally.)
+An animated walkthrough of how Compass reads an inquiry and commits to a bearing (or open
+[`showcase/index.html`](showcase/index.html) locally). New to this? The **Quick start** is a
+step-by-step, no-experience-needed setup guide.
 
 ---
 
