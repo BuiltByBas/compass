@@ -1,8 +1,8 @@
 # Decision Rubric
 
-How the operator scores an inquiry the same way every time. Three lenses run before it commits:
+How Compass scores an inquiry the same way every time. Three lenses run before it commits:
 Complexity, Fit, Risk. These mirror the scoring BuiltByBas already uses internally (client
-profile, complexity score, service-fit, and flags), so the operator's call lines up with how
+profile, complexity score, service-fit, and flags), so Compass's call lines up with how
 Bas grades a lead instead of inventing a parallel system.
 
 ---
@@ -24,10 +24,14 @@ factors are custom logic, data, auth, and number of connected systems.
 ## Lens 2: Fit
 
 How cleanly the real need maps to what BuiltByBas (or Marketing partner) delivers. Fit chooses the
-outcome family.
+outcome family. Note: in the bearings model these families resolve to a BEARING — a clean fit or a
+reframe both COMMIT a bearing (the reframe is just the bearing reached by reading past the noun,
+shown on the PATTERN line); MULTI-PHASE is a single bearing with staged phases on the MOVE line;
+PREREQUISITE / DISMISS / DECLINE are off-bearing outcomes. The lens language below still applies; it
+names the reasoning that lands the bearing.
 
-- Clean fit: the actual need is one BuiltByBas track and the client named it correctly -> ROUTE.
-- Mismatch: the actual need is a BuiltByBas track, but not the one they named -> REFRAME.
+- Clean fit: the actual need is one BuiltByBas track and the client named it correctly -> ROUTE (commit the matching bearing).
+- Mismatch: the actual need is a BuiltByBas track, but not the one they named -> REFRAME (commit the real need's bearing).
 - Marketing: the actual need is marketing the business, not software -> REFER (Marketing partner).
 - Outside all: legitimate but neither BuiltByBas nor Marketing partner delivers it -> DECLINE (non-fit).
 - Values conflict: trips the ethics screen -> DECLINE (ethics), regardless of fit.

@@ -1,8 +1,8 @@
 # Service Catalog
 
-The definitive list of what BuiltByBas does. The operator validates every inquiry against
+The definitive list of what BuiltByBas does. Compass validates every inquiry against
 this catalog. It is the backbone of the reframe decision: to know that a client asked for the
-wrong thing, the operator first has to know exactly what the right things are.
+wrong thing, Compass first has to know exactly what the right things are.
 
 Two groups. Group 1 is the productized build work the public site sells. Group 2 is the
 operational work that is usually the REAL need hiding behind a build request. Most reframes
@@ -17,7 +17,7 @@ Complex, Enterprise.
 
 ### Custom Website
 
-- What it is: a custom, responsive, SEO-optimized website built to convert visitors into customers. (Public site currently labels this "Marketing Website"; Bas is renaming it to "Custom Website" to avoid colliding with marketing-the-service, which BuiltByBas refers out to Marketing partner. The operator should recognize both names.)
+- What it is: a custom, responsive, SEO-optimized website built to convert visitors into customers. (Public site currently labels this "Marketing Website"; Bas is renaming it to "Custom Website" to avoid colliding with marketing-the-service, which BuiltByBas refers out to Marketing partner. Compass should recognize both names.)
 - Typical price band: $2,500 to $8,000.
 - Default complexity: Simple to Moderate.
 - Route here when: the client needs a website built, a public presence that builds credibility and captures leads.
@@ -93,7 +93,7 @@ Complex, Enterprise.
 
 These are the real BuiltByBas value: removing the friction in how a business runs. Clients
 rarely arrive asking for these by name. They ask for a "website" or a "system" and describe
-one of these. The operator's job is to catch that and reframe.
+one of these. Compass's job is to catch that and reframe.
 
 ### Data Organization
 

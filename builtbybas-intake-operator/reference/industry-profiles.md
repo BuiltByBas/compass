@@ -1,12 +1,12 @@
 # Industry Profiles
 
-The operator's domain brain. When an inquiry names or implies an industry, the operator loads
+Compass's domain brain. When an inquiry names or implies an industry, Compass loads
 that vertical's profile to do three things well: understand the business enough to reframe
 accurately, fire the right compliance flags, and apply the fit or restricted policy.
 
-This is not legal advice and nothing here is proprietary. The operator flags compliance and
+This is not legal advice and nothing here is proprietary. Compass flags compliance and
 scopes it at the consultation; it does not advise on the law. Profiles describe how these
-businesses generally operate so the operator reads the real need under the ask.
+businesses generally operate so Compass reads the real need under the ask.
 
 ---
 
@@ -29,11 +29,14 @@ that compliant handling gets scoped at the consultation:
 
 ## Restricted-industry policy (Bas's call, editable)
 
-- Accept with care (build, but flag heavy compliance): Cannabis / CBD, Alcohol.
-- Decline by policy (BuiltByBas does not take these): Gambling / betting, Firearms, Adult content.
+- Accept with care (build, but flag heavy compliance): Cannabis / CBD, Alcohol, lawful Adult content, lawful Firearms (FFL display-only, no online gun/ammo sales).
+- Decline by policy (BuiltByBas does not take these): Gambling / betting.
 - Case-by-case (build with a prominent flag, Bas makes the final go/no-go): Crypto / Web3.
+- Decline on ethics (not restricted): UNLAWFUL adult (CSAM, evading 2257 records or age
+  verification, non-consensual content) and UNLAWFUL firearms (online gun/ammo sales bypassing
+  FFL/background checks, trafficking, no-license sales). The ethics screen catches these and always wins.
 
-A restricted flag never silently changes the route. The operator states the policy and the
+A restricted flag never silently changes the route. Compass states the policy and the
 reason in WHY.
 
 ---
@@ -1266,34 +1269,56 @@ ACCEPT. Standard small-business build territory: scheduling, portal, payments, C
 
 - Core business: cultivation, dispensary, or CBD product sales.
 - Why care: state-by-state legality and a federal gray area, severe payment-processing restrictions, strict advertising rules (ad platforms ban it), mandatory age-gating.
-- Operator action: ACCEPT WITH CARE. The build proceeds (Custom Website, or E-commerce with caveats), but flag heavily: age verification, no standard card processing (specialized processors only), advertising restrictions (a Marketing partner marketing referral is constrained, flag that), and state compliance. Confirm their state's legality at the consultation.
+- Compass action: ACCEPT WITH CARE. The build proceeds (Custom Website, or E-commerce with caveats), but flag heavily: age verification, no standard card processing (specialized processors only), advertising restrictions (a Marketing partner marketing referral is constrained, flag that), and state compliance. Confirm their state's legality at the consultation.
 
 ### Alcohol / Brewery / Winery / Spirits (accept with care)
 
 - Core business: producing or selling alcohol.
 - Why care: age-gating, direct-to-consumer shipping laws that vary by state, advertising rules, the three-tier distribution system.
-- Operator action: ACCEPT WITH CARE. Flag: age verification, DTC shipping compliance if they sell online (E-commerce with a shipping-law caveat), advertising rules.
+- Compass action: ACCEPT WITH CARE. Flag: age verification, DTC shipping compliance if they sell online (E-commerce with a shipping-law caveat), advertising rules.
 
 ### Gambling / Betting / Gaming (decline by policy)
 
 - Core business: real-money wagering, betting, or gaming as the business itself.
 - Why decline: heavy licensing, age and geo restrictions, payment and legal complexity, a jurisdiction minefield.
-- Operator action: DECLINE (restricted). Decline politely, not a BuiltByBas fit. Note: a sweepstakes or contest used as a promotion by an otherwise normal business is fine; the decline is for gambling as the core business.
+- Compass action: DECLINE (restricted). Decline politely, not a BuiltByBas fit. Note: a sweepstakes or contest used as a promotion by an otherwise normal business is fine; the decline is for gambling as the core business.
 
-### Firearms / Weapons (decline by policy)
+### Firearms / Weapons (accept with care, if lawful)
 
-- Core business: sale of firearms, ammunition, or weapons.
-- Why decline: advertising and payment-processor restrictions, regulatory complexity, platform bans.
-- Operator action: DECLINE (restricted).
+- Core business: a licensed firearms dealer (FFL) or range/retailer wanting a credibility or
+  brochure presence (who they are, hours, services, range info, lead capture), NOT online sale of
+  guns or ammunition.
+- Why care: ATF/FFL regulation, advertising and payment-processor restrictions, platform ad bans,
+  and a hard line at e-commerce (transferring a firearm requires an FFL and background check, so
+  online gun/ammo checkout is out of scope and must route through the dealer's FFL process).
+- Compass action: ACCEPT WITH CARE. A lawful FFL display-only / credibility site builds like any
+  other (usually BE FOUND, or a Website Redesign), flagging: FFL/ATF compliance, NO online firearm
+  or ammunition sales in scope (display and lead capture only; transfers go through the FFL), age
+  and transfer law, and constrained advertising (a marketing referral carries the ad-platform
+  limits). Confirm the dealer is properly licensed at the consult.
+- Hard boundary: an UNLAWFUL firearms request -> DECLINE (ethics), not restricted. This covers
+  online gun or ammunition sales that bypass FFL transfer and background checks, trafficking,
+  no-license sales, and selling to prohibited persons. The ethics screen catches these and wins.
 
-### Adult Content (decline by policy)
+### Adult Content (accept with care, if lawful)
 
-- Core business: adult or explicit content and services.
-- Why decline: payment-processor restrictions, reputational and policy reasons, age-verification complexity.
-- Operator action: DECLINE (restricted).
+- Core business: lawful adult or explicit content and services (subscription content sites,
+  cam/live-streaming, adult retail) operated by and featuring verified adults.
+- Why care: mandatory age verification (state laws such as Texas HB 1181, upheld by SCOTUS
+  2025-06-27, now in ~25 states), 18 U.S.C. 2257 records-keeping and a named records custodian,
+  high-risk payment processing (CCBill, Segpay, not standard card rails), platform/advertising
+  bans, and DMCA/content-ownership handling.
+- Compass action: ACCEPT WITH CARE. The build proceeds (E-Commerce / membership site, Client
+  Portal for a creator area, or a Website Redesign), but flag heavily: age verification at the
+  front door, the 2257 records-custodian notice, a high-risk processor, performer-age and consent
+  verification, and content-moderation duties. Confirm performers are verified adults and 2257
+  compliance is in place at the consult.
+- Hard boundary: an UNLAWFUL adult request -> DECLINE (ethics), not restricted. This covers CSAM
+  or any minors, evading age verification or 2257, non-consensual or revenge content, and
+  trafficking. The ethics screen catches these and always wins over accept-with-care.
 
 ### Crypto / Web3 / Token Projects (case-by-case, Bas decides)
 
 - Core business: exchanges, token projects, NFT platforms, DeFi, wallets.
 - Why care: tokens may be securities, money-transmission licensing, a fraud-heavy space, fast-changing regulation.
-- Operator action: ROUTE the build with a prominent flag and DEFER the final go/no-go to Bas. Distinguish a normal business that merely accepts crypto payments (fine, flag lightly) from a token, exchange, or DeFi project (high regulatory risk, Bas decides). Name the securities and money-transmission risk in WHY.
+- Compass action: ROUTE the build with a prominent flag and DEFER the final go/no-go to Bas. Distinguish a normal business that merely accepts crypto payments (fine, flag lightly) from a token, exchange, or DeFi project (high regulatory risk, Bas decides). Name the securities and money-transmission risk in WHY.

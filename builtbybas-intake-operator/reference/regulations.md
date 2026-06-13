@@ -1,7 +1,7 @@
 # Regulations Reference
 
-A library entry the operator consults by name when a regulation is flagged. Plain language, not
-legal advice. For each: what it is, who it applies to, and what the operator flags. The operator
+A library entry Compass consults by name when a regulation is flagged. Plain language, not
+legal advice. For each: what it is, who it applies to, and what Compass flags. Compass
 names the regulation in WHY and in the draft, and notes that compliant handling is scoped at the
 consultation. It never claims to certify compliance.
 
