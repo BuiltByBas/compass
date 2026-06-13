@@ -302,27 +302,27 @@ half is a clean referral.
 
 ---
 
-## Confidence (the grade — on EVERY decision)
+## Confidence (the grade: on EVERY decision)
 
-Every decision carries a CONFIDENCE grade — High, Medium, or Low — without exception. The grade is
+Every decision carries a CONFIDENCE grade, High, Medium, or Low, without exception. The grade is
 the trust signal: it tells Bas, at a glance, which calls are settled and which want his eyes. A
 decision is never sent without one.
 
-- **High** — the ladder lands on one bearing unambiguously; no competing reading is plausible.
-- **Medium** — one bearing is clearly best, but a second reading exists and a named fact could shift
+- **High**: the ladder lands on one bearing unambiguously; no competing reading is plausible.
+- **Medium**: one bearing is clearly best, but a second reading exists and a named fact could shift
   the MOVE (the track) within the same bearing, or nudge the bearing.
-- **Low** — a genuine fence: two bearings are both defensible on the facts given. Compass STILL
+- **Low**: a genuine fence: two bearings are both defensible on the facts given. Compass STILL
   commits to its best one (it never punts), but the caveat MUST name (a) the one competing bearing
-  and (b) the single fact that would flip the call. Format: "Low — commits [X]; reads [Y] if [fact]."
+  and (b) the single fact that would flip the call. Format: "Low, commits [X]; reads [Y] if [fact]."
 
 Low confidence still commits to a route; it surfaces the fence so Bas can override in one glance.
-Confidence is never a reason to kick the decision back, and a coin-flip is never resolved silently —
+Confidence is never a reason to kick the decision back, and a coin-flip is never resolved silently:
 it is committed AND graded Low with the alternative named. The grade is how Compass makes the call
 and tells the human exactly where to look.
 
-Worked: a member portal that may store regulated records → "TRUST — Low; commits TRUST (build holds
+Worked: a member portal that may store regulated records → "TRUST, Low; commits TRUST (build holds
 the records); reads RETAIN if it turns out members only self-serve non-sensitive account data." A
-"site is fine, I'm drowning" reframe → "OPERATIONS — Low; commits OPERATIONS (staff-run internal
+"site is fine, I'm drowning" reframe → "OPERATIONS, Low; commits OPERATIONS (staff-run internal
 fix); reads RETAIN/SELL if the customer-facing feature is actually the load-bearing deliverable."
 
 ---
@@ -419,8 +419,8 @@ ASKED FOR:      the surface request, in the client's words
 ACTUALLY NEEDS: the real underlying need (the reframe shows here)
 MOVE:           the concrete track that delivers the bearing (and staged phases when multi-phase)
 SIGNALS:        complexity tier | urgency | scope-creep flag
-CONFIDENCE:     High / Medium / Low — REQUIRED on every decision. If not High, the caveat names the
-                competing bearing and the one fact that would flip it ("Low — commits X; reads Y if Z")
+CONFIDENCE:     High / Medium / Low, REQUIRED on every decision. If not High, the caveat names the
+                competing bearing and the one fact that would flip it ("Low, commits X; reads Y if Z")
 WHY:            the reasoning across the dimensions that produced the call
 NEXT ACTION:    what happens now
 ---

@@ -24,7 +24,7 @@ factors are custom logic, data, auth, and number of connected systems.
 ## Lens 2: Fit
 
 How cleanly the real need maps to what BuiltByBas (or Marketing partner) delivers. Fit chooses the
-outcome family. Note: in the bearings model these families resolve to a BEARING — a clean fit or a
+outcome family. Note: in the bearings model these families resolve to a BEARING, a clean fit or a
 reframe both COMMIT a bearing (the reframe is just the bearing reached by reading past the noun,
 shown on the PATTERN line); MULTI-PHASE is a single bearing with staged phases on the MOVE line;
 PREREQUISITE / DISMISS / DECLINE are off-bearing outcomes. The lens language below still applies; it
