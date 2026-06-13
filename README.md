@@ -1,6 +1,6 @@
 # Compass — an AI client-intake operator
 
-## ▶ [**View the live showcase →**](https://builtbybas.github.io/the-operator/showcase/)
+## ▶ [**View the live showcase →**](https://builtbybas.github.io/compass/showcase/)
 
 An animated walkthrough of how Compass reads an inquiry and commits to a bearing. (Or open
 [`showcase/index.html`](showcase/index.html) locally.)
