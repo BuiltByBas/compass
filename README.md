@@ -32,13 +32,16 @@ starting from a blank inquiry.
 
 1. Open the folder [`builtbybas-intake-operator/`](builtbybas-intake-operator/) as a Claude Code /
    Cursor / Codex workspace, or paste its files into a claude.ai Project. It auto-becomes Compass.
-   (Activation table: [folder README](builtbybas-intake-operator/README.md#quick-start-about-60-seconds).)
 2. Paste any of the three blind samples in
    [`samples/`](builtbybas-intake-operator/samples/) as your message — or your own real inquiry.
 3. Read the decision block and the draft. Decide for yourself whether you'd act on it.
 
 The three samples are different verticals and the right calls are deliberately **not** all obvious —
 that is the point.
+
+**Never set up an AI agent before?** The folder README has a full,
+step-by-step, no-experience-needed walkthrough for all four environments (download the files →
+activate → paste an inquiry): **[Quick start →](builtbybas-intake-operator/README.md#quick-start)**.
 
 ---
 

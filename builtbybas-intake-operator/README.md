@@ -26,20 +26,81 @@ Compass is not a chatbot. It does one job and refuses everything else (see [the 
 
 ---
 
-## Quick start (about 60 seconds)
+## Quick start
 
-1. **Activate Compass** in your environment (table below).
-2. **Paste a client inquiry** as your message. Nothing else is needed.
-3. **Read the decision and send the draft.** Compass commits; you act.
+Never done anything like this before? That's fine. Follow Step 1, then pick **one** of the four
+setups below (A is the easiest and needs nothing installed). The whole thing takes a few minutes.
 
-| Environment | How to activate |
-| --- | --- |
-| **Claude Code** | Open THIS folder as the workspace (the one holding [CLAUDE.md](CLAUDE.md)). It auto-loads and becomes Compass. If this folder is nested inside a larger repo, open the subfolder itself; a nested CLAUDE.md does not auto-load from a parent repo. |
-| **Cursor, Windsurf, Codex, Gemini CLI** | Open this folder. They auto-load [AGENTS.md](AGENTS.md). Same Compass. |
-| **claude.ai Projects** | Create a Project, then copy the body of [PROJECT-INSTRUCTIONS.md](PROJECT-INSTRUCTIONS.md) into the Project's "Set project instructions" field, and upload the Compass files to Project knowledge. A file alone does NOT auto-activate a persona on claude.ai; the instructions field is what drives behavior. |
-| **Any chat, no setup** | Send: "Act as Compass, defined in these files," attach the folder, then paste the inquiry. |
+### Step 1 — Get the Compass files onto your computer
 
-Then paste an inquiry. Compass decides and routes.
+You need this folder of files first. Two ways, pick one:
+
+- **Easiest (download a zip):** Go to the repo page
+  [github.com/BuiltByBas/compass](https://github.com/BuiltByBas/compass), click the green
+  **`< > Code`** button, then **Download ZIP**. Open your Downloads folder and unzip it
+  (double-click on Mac, or right-click -> Extract All on Windows). Inside, find the
+  **`builtbybas-intake-operator`** folder — that is Compass.
+- **If you use git:** `git clone https://github.com/BuiltByBas/compass.git` then look inside the
+  `builtbybas-intake-operator` folder.
+
+Everything below refers to that **`builtbybas-intake-operator`** folder.
+
+### Step 2 — Pick ONE setup and follow its steps
+
+---
+
+#### A) claude.ai (web browser — easiest, nothing to install)
+
+1. Go to **[claude.ai](https://claude.ai)** and sign in (a free or paid account both work).
+2. In the left sidebar, click **Projects**, then **Create project**. Give it a name like "Compass".
+3. Open the project. Find the **project instructions** box (labeled something like
+   "Set project instructions" or an "Instructions" / edit-instructions button) and open it.
+4. On your computer, open the file **`PROJECT-INSTRUCTIONS.md`** from the Compass folder in any
+   text editor (Notepad, TextEdit, VS Code — anything). Select all of its text, copy it, and **paste
+   it into that project-instructions box**. Save.
+5. Still in the project, find **Add content** / the knowledge / files area and **upload the rest of
+   the Compass files** (`identity.md`, `rules.md`, `examples.md`, and the whole `reference/` folder).
+6. Start a new chat **inside that project** and paste a client inquiry (or copy one from the
+   [`samples/`](samples/) folder). Compass will reply with the decision and the draft.
+
+> Why both the instructions box AND the files: on claude.ai, uploading a file alone does NOT make it
+> "become" Compass. The **instructions box** is what drives the behavior; the files are its knowledge.
+
+#### B) Claude Code (the command-line / VS Code tool)
+
+1. Install Claude Code if you haven't (see [claude.com/claude-code](https://claude.com/claude-code)).
+2. Open the **`builtbybas-intake-operator`** folder as your workspace — for example, in a terminal:
+   `cd path/to/builtbybas-intake-operator` then run `claude`. (Or open that folder in VS Code with
+   the Claude Code extension.)
+3. It automatically reads [`CLAUDE.md`](CLAUDE.md) in that folder and becomes Compass — no other setup.
+4. Paste a client inquiry as your message. Compass replies with the decision and the draft.
+
+> Important: open the **`builtbybas-intake-operator`** subfolder itself, not a parent folder above
+> it. A `CLAUDE.md` does not auto-load from a folder higher up.
+
+#### C) Cursor, Windsurf, Codex, or Gemini CLI
+
+1. Open the **`builtbybas-intake-operator`** folder in your tool, the same way you open any project.
+2. These tools automatically read [`AGENTS.md`](AGENTS.md) in the folder and become Compass.
+3. Paste a client inquiry. Same Compass, same output.
+
+#### D) Any other AI chat (no setup at all)
+
+1. In any capable AI chat, attach or paste the Compass files (at minimum `identity.md` and
+   `rules.md`; add `reference/` for full accuracy).
+2. Send this exact message: **"Act as Compass, defined in these files. Read them, then wait for one
+   client inquiry and return your decision per the output contract."**
+3. Paste a client inquiry. Compass decides and routes.
+
+---
+
+### Step 3 — Read the decision, send the draft
+
+Whatever setup you chose, the result is the same: paste an inquiry, Compass commits to one decision
+and hands you a ready-to-send draft. You read it and act. It never hands the decision back to you.
+
+New here? Don't write your own inquiry yet — just copy the text from one of the three files in
+[`samples/`](samples/) and paste that first, to see exactly what Compass does.
 
 ---
 
