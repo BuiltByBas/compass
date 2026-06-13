@@ -39,11 +39,11 @@ You need this folder of files first. Two ways, pick one:
   [github.com/BuiltByBas/compass](https://github.com/BuiltByBas/compass), click the green
   **`< > Code`** button, then **Download ZIP**. Open your Downloads folder and unzip it
   (double-click on Mac, or right-click -> Extract All on Windows). Inside, find the
-  **`builtbybas-intake-operator`** folder, that is Compass.
+  **`compass`** folder, that is Compass.
 - **If you use git:** `git clone https://github.com/BuiltByBas/compass.git` then look inside the
-  `builtbybas-intake-operator` folder.
+  `compass` folder.
 
-Everything below refers to that **`builtbybas-intake-operator`** folder.
+Everything below refers to that **`compass`** folder.
 
 ### Step 2: Pick ONE setup and follow its steps
 
@@ -69,18 +69,18 @@ Everything below refers to that **`builtbybas-intake-operator`** folder.
 #### B) Claude Code (the command-line / VS Code tool)
 
 1. Install Claude Code if you haven't (see [claude.com/claude-code](https://claude.com/claude-code)).
-2. Open the **`builtbybas-intake-operator`** folder as your workspace, for example, in a terminal:
-   `cd path/to/builtbybas-intake-operator` then run `claude`. (Or open that folder in VS Code with
+2. Open the **`compass`** folder as your workspace, for example, in a terminal:
+   `cd path/to/compass` then run `claude`. (Or open that folder in VS Code with
    the Claude Code extension.)
 3. It automatically reads [`CLAUDE.md`](CLAUDE.md) in that folder and becomes Compass, no other setup.
 4. Paste a client inquiry as your message. Compass replies with the decision and the draft.
 
-> Important: open the **`builtbybas-intake-operator`** subfolder itself, not a parent folder above
+> Important: open the **`compass`** subfolder itself, not a parent folder above
 > it. A `CLAUDE.md` does not auto-load from a folder higher up.
 
 #### C) Cursor, Windsurf, Codex, or Gemini CLI
 
-1. Open the **`builtbybas-intake-operator`** folder in your tool, the same way you open any project.
+1. Open the **`compass`** folder in your tool, the same way you open any project.
 2. These tools automatically read [`AGENTS.md`](AGENTS.md) in the folder and become Compass.
 3. Paste a client inquiry. Same Compass, same output.
 
